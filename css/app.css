@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'Aktiv Grotesk Corp6';
+    src: url('../fonts/my/AktivGroteskCorpMedium-Regular.eot');
+    src: url('../fonts/my/AktivGroteskCorpMedium-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/my/AktivGroteskCorpMedium-Regular.woff') format('woff'),
+        url('../fonts/my/AktivGroteskCorpMedium-Regular.woff2') format('woff2'),
+        url('../fonts/my/AktivGroteskCorpMedium-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Celestina';
+    src: url('../fonts/my/Celestina.woff') format('woff'),
+    	url('../fonts/my/Celestina.woff2') format('woff2'),
+        url('../fonts/my/Celestina.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.Celestina {
+    font-family: 'Celestina';
+}
+.AktivGroteskCorp6 {
+font-family: 'Aktiv Grotesk Corp6';
+}
+.container {
+    margin-top: 110px;
+}
+
+.top-110 {
+    margin-top: 110px;
+}
+.top-130 {
+    margin-top: 130px;
+}
+.top-150{
+    margin-top: 150px;
+}
+
+.h150 {
+    height: 150px;
+}
+.h110 {
+    height: 110px;
+}
+.h90 {
+    height: 90px;
+}
+.h80 {
+    height: 80px;
+}
+.h60 {
+    height: 60px;
+}
+.h50 {
+    height: 50px;
+}
+
+.mar15 {
+    margin: 15px;
+}
+
+.top-red {
+    border-top: 6px solid #b21f2d;
+    }
+        
+.m-100 {
+    margin-top: 0;
+}
+
+.word-b {
+    /*width: 160px;*/
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+a.nav-link:hover {
+    background-color: #EEE;
+    border-radius: 10px;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 100px;
+    padding: 20px;
+    height: 250px;
+    background-color: #f5f5f5;
+}
+
+.main_nav {
+  display: inline-block;
+  width: 300px;
+	height: 210px;
+	vertical-align: middle;
+}
+
+figcaption strong {
+	display: block;
+}
+
+.main_page figure {
+  display: inline-block;
+  width: 300px;
+  height: 210px;
+  margin: 15px;
+  position: relative;
+}
+.main_page figcaption {
+  position: absolute;
+  top: 15%;
+  bottom: 15%;
+  left: 0;
+  right: 0;
+  border-radius: 30px;
+  background-color: rgba(102, 165, 242, 0.9);
+  padding: 20px;
+  text-align: center;
+  font-family: Titillium, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  color: white;
+  opacity: 0;
+  transition: opacity .75s ease-out;  
+}
+.main_page figure:hover figcaption {
+  opacity: 1;
+}
+
+.video_link {
+	margin-left: 222px;
+}
+
+.main_nav figcaption {
+  position: absolute;
+  top: 15%;
+  bottom: 15%;
+  left: 0;
+  right: 0;
+  border-radius: 30px;
+  background-color: rgba(102, 165, 242, 0.9);
+  padding: 20px;
+  text-align: center;
+  font-family: Titillium, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: white;
+  opacity: 0;
+  transition: opacity .75s ease-out;  
+}
+.main_nav figure:hover figcaption {
+  opacity: 1;
+}
+.color_red {
+	color: red;
+	font-weight: bolder;
+}
+.color_rgs {
+    color: #b21f2d;
+    font-weight: bolder;
+}
+
+#link:hover {
+    border-color: #007bff !important;
+    background-color: #cce5ff !important;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
+}
+
+#adminka:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
+}
+
+.main_nav {
+	width: 300px;
+	height: 210px;
+	vertical-align: middle;
+}
+
+.main_nav img {
+	padding-left: 39px;
+	height: 210px;
+}
+
+.cent {
+    text-align: center;
+}
+
+.text-link {
+    font-family: 'Devroye Unicode';
+}
+
+.booking:hover {
+    background-color: gray !important;
+}
+.booking a {
+    text-decoration: none;
+}
+
+#weekend, #weekend a {
+    color: red;
+}
+
